@@ -1,0 +1,44 @@
+body{
+    background-image: url('/Users/kevin/Documents/UAB/2021 Summer/621/Homework/HW 1/image/pexels-ilya-galica-5271593.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: auto;
+}
+
+.show1 h1{
+  color: yellow;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+#box {
+    width: 700px;
+    height: 100px;
+    margin: 0px 0px;
+}
+
+.button {
+    font: bold 30px Times New Roman;
+    width: auto;
+    height: 60px;
+    padding: 5px;
+    margin-right: 5px;
+    padding: 10px 15px;
+    letter-spacing: 2px;
+    background-color: #D9AEEF;
+}
+
+.button:hover{
+    background-color: #ED6CFE;
+}
+
+.button:active{
+    background-color: #FFFFFF;
+}
+
+.button:visited{
+    color: red;
+    background-color: chartreuse;
+}

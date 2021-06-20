@@ -1,0 +1,77 @@
+body{
+    background-image: url('/Users/kevin/Documents/UAB/2021 Summer/621/Homework/HW 1/image/pexels-pixabay-268533.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: auto;
+}
+
+#mainpage{
+    width: 150px;
+    height: 100px;
+    display: block;
+}
+
+#textbox{
+    width: 1200px;
+    height: 280px;
+    margin: 0px 10px;
+    position: relative;
+}
+
+.name{
+    position: absolute;
+    margin-bottom: 0px;
+    color: #19D4EC;
+    font-family: Times New Roman;
+    font-style: italic;
+    font-size: 100px;
+}
+.image{
+  width: 310px;
+  height: 200px;
+  margin: 100px 500px;
+}
+#textbox2{
+    width: 500px;
+    height: 120px;
+    margin: 100px 500px;
+}
+.introduction{
+    color: rgb(0,255,127);
+    right: 300px;
+    font-family: Times New Roman;
+    font-size: 30px;
+    background-color: rgba(200,200,200,0.4);
+}
+
+#box{
+    width: 60px;
+    height: 100px;
+    margin:10px 30px;
+}
+
+.button{
+    width: 300px;
+    height: 90px;
+    margin: 5px;
+    padding: 10px 15px;
+    border: 10px none none;
+    font: bold 30px Times New Roman;
+    letter-spacing: 2px;
+    background-color: #B5E8F3;
+}
+
+.button:hover{
+    background-color: #F0F3B5;
+}
+
+.button:active{
+    background-color: #FFFFFF;
+}
+
+.button:visited{
+    color: red;
+    background-color: chartreuse;
+}
